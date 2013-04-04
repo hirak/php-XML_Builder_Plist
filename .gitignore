@@ -1,0 +1,5 @@
+vendor
+coverage
+foo.plist
+foo.xml
+phpunit.xml

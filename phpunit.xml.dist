@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  colors="true"
+  bootstrap="vendor/autoload.php">
+  <filter>
+    <whitelist>
+      <directory suffix=".php">src/</directory>
+    </whitelist>
+  </filter>
+  <testsuite name="XML_Builder Test Suite">
+    <directory>tests/</directory>
+  </testsuite>
+</phpunit>
+<!-- vim: set sw=2 sts=2: -->

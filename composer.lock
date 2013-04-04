@@ -1,0 +1,114 @@
+{
+    "hash": "8856644f3a6089b0ff79cb3a0f149b28",
+    "packages": [
+        {
+            "name": "hiraku/xml_builder",
+            "version": "1.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hirak/php-XML_Builder.git",
+                "reference": "1.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hirak/php-XML_Builder/zipball/1.0.9",
+                "reference": "1.0.9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-xmlreader": "*",
+                "php": ">=5.2.10"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "ext-xmlwriter": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/XML/Builder.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hiraku NAKANO",
+                    "email": "hiraku@tojiru.net"
+                }
+            ],
+            "description": "Simple DSL for building XML",
+            "homepage": "http://hirak.github.com/xmlbuilder/",
+            "keywords": [
+                "array",
+                "dom",
+                "json",
+                "xml"
+            ],
+            "time": "2013-04-02 15:36:40"
+        },
+        {
+            "name": "rodneyrehm/plist",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rodneyrehm/CFPropertyList.git",
+                "reference": "v2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/rodneyrehm/CFPropertyList/zipball/v2.0",
+                "reference": "v2.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "CFPropertyList": "classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Kruse",
+                    "email": "cjk@wwwtech.de"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "mail+github@rodneyrehm.de"
+                }
+            ],
+            "description": "Library for reading and writing Apple's CFPropertyList (plist) files in XML as well as binary format.",
+            "homepage": "https://github.com/rodneyrehm/CFPropertyList",
+            "keywords": [
+                "plist"
+            ],
+            "time": "2012-07-22 03:57:41"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
