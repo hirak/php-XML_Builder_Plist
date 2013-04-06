@@ -3,16 +3,16 @@
     "packages": [
         {
             "name": "hiraku/xml_builder",
-            "version": "1.0.9",
+            "version": "1.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/hirak/php-XML_Builder.git",
-                "reference": "1.0.9"
+                "reference": "1.0.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/hirak/php-XML_Builder/zipball/1.0.9",
-                "reference": "1.0.9",
+                "url": "https://api.github.com/repos/hirak/php-XML_Builder/zipball/1.0.10",
+                "reference": "1.0.10",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "json",
                 "xml"
             ],
-            "time": "2013-04-02 15:36:40"
+            "time": "2013-04-06 02:04:21"
         },
         {
             "name": "rodneyrehm/plist",
